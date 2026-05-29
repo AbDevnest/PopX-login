@@ -22,7 +22,7 @@ export default function Account() {
       <div className="bg-white w-full max-w-[390px] min-h-[calc(100vh-80px)] rounded-2xl shadow-lg flex flex-col">
 
         <div className="px-6 py-5 border-b border-gray-100 flex items-center gap-3">
-          <button onClick={() => navigate('/')} className="text-gray-800 text-xl bg-gray-500 rounded-full p-3">
+          <button onClick={() => navigate('/')} className="text-gray-800 text-xl bg-gray-200 rounded-full p-2">
             ←
           </button>
           <h1 className="text-base font-semibold text-gray-900">Account Settings</h1>
